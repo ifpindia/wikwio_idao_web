@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="240mm" height="180mm" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 24000 18000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<a>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="marge_lisse" onclick="parent.replacechar('marge_lisse')" onmousemove="parent.showtooltip('marge_lisse','Marge lisse')" onmouseout="parent.hidetooltip('marge_lisse')" cursor="pointer">
+    <metadata id="CorelCorpID_1">
+     <odm name="Name" value="entire" type="0"/>
+    </metadata>
+   <polygon fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" points="363,7979 363,375 2442,375 2442,7979 "/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linecap="round" stroke-linejoin="bevel" d="M2455 1462c178,-221 297,-396 402,-631 0,0 0,0 0,0 512,1143 2146,1987 1825,4090 -181,1259 -1359,1591 -1804,2265 0,0 5,785 5,787 -5,5 -143,-3 -143,5 0,0 11,-620 0,-806 -13,-151 -256,-445 -294,-442"/>
+   <path fill="#78B43C" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M2442 6731l0 -5250c-712,852 -1788,1615 -1572,3241 159,1149 884,1507 1572,2009z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M2865 1014c14,1006 54,1947 30,2944 -5,1124 8,1790 -30,2915"/>
+  </g>
+  <g id="marge_dentee_crenee" onclick="parent.replacechar('marge_dentee_crenee')" onmousemove="parent.showtooltip('marge_dentee_crenee','Marge dent&#233;e -cr&#233;n&#233;e')" onmouseout="parent.hidetooltip('marge_dentee_crenee')" cursor="pointer">
+    <metadata id="CorelCorpID_2">
+     <odm name="Name" value="dentée_crenée" type="0"/>
+    </metadata>
+   <path fill="#78B43C" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M7051 1395l0 5282c-159,-74 -902,-222 -419,-291 -737,-156 -376,-152 -375,-254 -752,-290 -350,-273 -362,-385 -683,-325 -322,-312 -262,-398 -550,-455 -177,-364 -121,-417 -455,-493 -66,-280 -66,-364 -386,-506 -60,-294 -5,-356 -326,-642 -66,-365 52,-411 -272,-744 32,-427 136,-474 -110,-718 55,-479 225,-453 46,-936 202,-525 367,-511 156,-742 218,-379 328,-377 236,-747 229,-350 299,-320 -11,-38 121,-259 162,-272l39 3z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M7488 972c14,1006 54,1947 30,2944 -5,1124 8,1790 -30,2915"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linecap="round" stroke-linejoin="bevel" d="M7067 1394c178,-221 315,-364 420,-598 0,0 0,0 0,0 512,1143 2146,1987 1825,4090 -181,1259 -1359,1591 -1804,2265 0,0 5,785 5,787 -5,5 -143,-3 -143,5 0,0 11,-620 0,-806 -13,-151 -256,-445 -294,-442"/>
+   <polygon fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" points="4988,7979 4988,375 7067,375 7067,7979 "/>
+  </g>
+  <g id="marge_denticulee" onclick="parent.replacechar('marge_denticulee')" onmousemove="parent.showtooltip('marge_denticulee','Marge denticul&#233;e')" onmouseout="parent.hidetooltip('marge_denticulee')" cursor="pointer">
+    <metadata id="CorelCorpID_3">
+     <odm name="Name" value="denticulé" type="0"/>
+    </metadata>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linecap="round" stroke-linejoin="bevel" d="M11711 1462c178,-221 297,-396 402,-631 0,0 0,0 0,0 512,1143 2146,1987 1825,4090 -181,1259 -1359,1591 -1804,2265 0,0 5,785 5,787 -5,5 -143,-3 -143,5 0,0 11,-620 0,-806 -13,-151 -256,-445 -294,-442"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M12120 1014c14,1006 54,1947 30,2944 -5,1124 8,1790 -30,2915"/>
+   <path fill="#78B43C" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M11700 6723l0 -5250c-58,44 -93,172 -111,184 -41,-42 -24,-16 -43,-49 -33,42 -99,320 -173,162 -67,73 -47,77 -102,269 -28,-34 -42,-23 -72,-69 -106,198 -62,126 -122,272 -46,-49 -52,-40 -73,-69 -96,142 -84,161 -141,301 -40,-46 -39,-38 -73,-74 -97,204 -70,219 -85,320 -34,-56 -43,-47 -90,-84 -95,180 -108,298 -82,331 -22,-4 -73,-43 -90,-63 -63,97 -59,308 -85,337 -31,-19 -44,-18 -82,-27 -47,206 8,283 -23,336 -34,-9 -22,17 -83,-8 -24,223 -18,263 1,360 -35,-9 -29,6 -76,-7 -9,60 -3,190 53,334 -16,-34 -39,1 -98,3 16,159 15,108 112,366 -30,-6 -31,-5 -89,21 62,237 141,301 120,305 -35,-4 -33,14 -71,27 47,124 105,231 175,266 -60,20 -17,3 -79,44 41,69 46,106 190,202 -17,19 -28,31 -64,70 79,113 133,153 208,185 -3,18 -15,39 -47,86 38,48 225,148 288,146 -9,1 29,-6 -56,100 55,53 199,159 304,161 -14,19 -16,17 -34,73 49,39 203,108 280,102 29,-2 -28,75 -27,103 214,128 261,159 438,231z"/>
+   <polygon fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" points="9618,7979 9618,375 11697,375 11697,7979 "/>
+  </g>
+  <g id="marge_largement_dentee" onclick="parent.replacechar('marge_largement_dentee')" onmousemove="parent.showtooltip('marge_largement_dentee','Marge largement dent&#233;e')" onmouseout="parent.hidetooltip('marge_largement_dentee')" cursor="pointer">
+    <metadata id="CorelCorpID_4">
+     <odm name="Name" value="large denté" type="0"/>
+    </metadata>
+   <polygon fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" points="14246,7979 14246,375 16325,375 16325,7979 "/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linecap="round" stroke-linejoin="bevel" d="M16338 1457c178,-221 297,-396 402,-631 0,0 0,0 0,0 512,1143 2146,1987 1825,4090 -181,1259 -1359,1591 -1804,2265 0,0 5,785 5,787 -5,5 -143,-3 -143,5 0,0 11,-620 0,-806 -13,-151 -256,-445 -294,-442"/>
+   <path fill="#78B43C" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M16324 6726l0 -5250c-35,42 -80,31 -83,-93 -73,189 -325,458 -478,714 -30,51 -103,56 -102,-115 -31,91 -335,450 -432,768 -13,44 -82,55 -133,-74 -1,183 -256,449 -279,933 -3,53 -22,412 -148,156 -3,379 33,636 92,1010 7,42 72,229 -145,85 81,131 250,571 574,929 30,33 -35,9 -137,22 155,82 507,447 738,513 33,9 4,66 -84,98 234,18 461,187 618,304z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M16748 1010c14,1006 54,1947 30,2944 -5,1124 8,1790 -30,2915"/>
+  </g>
+  <g id="marge_ondulee" onclick="parent.replacechar('marge_ondulee')" onmousemove="parent.showtooltip('marge_ondulee','Marge ondul&#233;e')" onmouseout="parent.hidetooltip('marge_ondulee')" cursor="pointer">
+    <metadata id="CorelCorpID_5">
+     <odm name="Name" value="ondulée" type="0"/>
+    </metadata>
+   <polygon fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" points="18873,7979 18873,375 20952,375 20952,7979 "/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linecap="round" stroke-linejoin="bevel" d="M20966 1456c178,-210 297,-391 402,-626 0,0 0,0 0,0 512,1141 2146,1979 1825,4085 -181,1265 -1359,1596 -1804,2268 0,0 5,790 5,795 -5,0 -143,-8 -143,0 0,0 11,-623 0,-801 -13,-151 -251,-429 -286,-413"/>
+   <path fill="#78B43C" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M20952 6760l0 -5315c-248,294 -399,741 -809,909 -224,105 -46,585 -426,607 -321,16 -361,537 -316,847 30,275 375,706 113,847 -434,240 113,973 440,1087 173,76 100,313 245,442 248,208 493,380 752,577z"/>
+   <path fill="#BBDCBF" stroke="black" stroke-width="7.62" d="M20165 6151l-108 -359c208,89 617,216 642,270 11,67 -359,62 -534,89z"/>
+   <path fill="#BBDCBF" stroke="black" stroke-width="7.62" d="M19351 4881c302,35 871,183 914,119 49,-70 -434,-340 -650,-496l-62 143 -121 81 -81 154z"/>
+   <path fill="#BBDCBF" stroke="black" stroke-width="7.62" d="M19499 3117c218,113 604,369 666,337 57,-38 -186,-375 -280,-555l-113 59 -127 30 -124 49 -22 81z"/>
+   <path fill="#BBDCBF" stroke="black" stroke-width="7.62" d="M20165 2346c100,84 289,264 315,248 11,-16 -113,-227 -162,-337l-54 40 -100 49z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M21367 976c16,1081 -22,1761 -46,2837 -5,1208 30,1933 -11,3141"/>
+  </g>
+  <g id="marge_irreguliere" onclick="parent.replacechar('marge_irreguliere')" onmousemove="parent.showtooltip('marge_irreguliere','Marge irr&#233;guli&#232;re')" onmouseout="parent.hidetooltip('marge_irreguliere')" cursor="pointer">
+    <metadata id="CorelCorpID_6">
+     <odm name="Name" value="irregulier denté" type="0"/>
+    </metadata>
+   <polygon fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" points="544,16189 544,8585 2623,8585 2623,16189 "/>
+   <g>
+    <g>
+     <path fill="none" stroke="black" stroke-width="7.62" d="M2625 14687c140,98 263,222 363,398 121,213 52,1119 52,1105l129 0c0,0 12,-339 11,-708 0,-457 104,-701 319,-830 437,-262 576,-321 636,-389 -27,-43 -157,9 -115,-86 356,-290 522,-454 522,-708 -178,52 -251,95 -510,90 -207,-99 -80,-402 37,-810 123,-429 240,-331 338,-680 -289,85 -439,92 -516,-427 -70,-474 44,-428 -55,-1009 -112,218 -322,157 -352,-209 -30,-366 -97,-594 -156,-673 -19,36 -21,82 -63,94 -182,50 -279,-432 -548,-787 -38,29 -70,88 -97,165m0 0c-91,252 -143,696 -264,890 -47,75 -94,24 -149,-50 -169,703 11,1019 -44,1311 -24,129 -158,53 -303,19 -26,284 147,332 99,824 -21,212 -270,159 -543,34 12,299 304,608 563,1047 259,438 60,504 -78,529 -138,25 -368,-48 -368,-48 0,0 145,448 442,582 236,107 457,193 647,326"/>
+     <path fill="none" stroke="#2A2A29" stroke-width="7.62" d="M2714 9194c0,0 478,3202 378,5879"/>
+    </g>
+    <path fill="#78B43C" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M2624 14687l-3 -5464c-91,252 -143,696 -264,890 -47,75 -94,24 -149,-50 -169,703 11,1019 -44,1311 -24,129 -158,53 -303,19 -26,284 147,332 99,824 -21,212 -270,159 -543,34 12,299 304,608 563,1047 259,438 60,504 -78,529 -138,25 -368,-48 -368,-48 0,0 145,448 442,582 236,107 457,193 647,326z"/>
+   </g>
+  </g>
+  <g id="marge_pubescente" onclick="parent.replacechar('marge_pubescente')" onmousemove="parent.showtooltip('marge_pubescente','Marge pubescente')" onmouseout="parent.hidetooltip('marge_pubescente')" cursor="pointer">
+    <metadata id="CorelCorpID_7">
+     <odm name="Name" value="pubescent" type="0"/>
+    </metadata>
+   <g id="entire">
+     <metadata id="CorelCorpID_8">
+      <odm name="Name" value="entire" type="0"/>
+     </metadata>
+    <polygon fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" points="4991,16190 4991,8586 7070,8586 7070,16190 "/>
+    <path fill="none" stroke="black" stroke-width="7.62" stroke-linecap="round" stroke-linejoin="bevel" d="M7083 9672c178,-221 297,-396 402,-631 0,0 0,0 0,0 512,1143 2146,1987 1825,4090 -181,1259 -1359,1591 -1804,2265 0,0 5,785 5,787 -5,5 -143,-3 -143,5 0,0 11,-620 0,-806 -13,-151 -256,-445 -294,-442"/>
+    <path fill="#78B43C" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M7070 14941l0 -5250c-712,852 -1788,1615 -1572,3241 159,1149 884,1507 1572,2009z"/>
+    <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M7493 9225c14,1006 54,1947 30,2944 -5,1124 8,1790 -30,2915"/>
+   </g>
+   <g>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M7039 14920c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6953 14862c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6874 14805c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6783 14742c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6699 14679c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6599 14612c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6503 14540c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6409 14464c0,0 -92,22 -120,-14"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6322 14399c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6241 14328c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6149 14244c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6067 14161c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6002 14092c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5943 14025c0,0 -92,19 -120,-12"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5888 13948c0,0 -94,-1 -115,-38"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5828 13865c0,0 -4,0 -11,-1 -7,-1 -17,-2 -28,-4 -28,-6 -63,-17 -78,-39"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5780 13794c0,0 -93,-10 -118,-49"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5732 13703c0,0 -92,4 -120,-32"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5664 13549c0,0 -93,-5 -113,-43"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5631 13471c0,0 -93,-8 -112,-47"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5608 13407c0,0 -92,-16 -107,-56"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5571 13317c37,6 -64,-6 -95,-46"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5554 13240c0,0 -91,-21 -104,-61"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5535 13155c0,0 -91,-21 -104,-62"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5515 13065c0,0 -88,-28 -108,-74"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5703 13643c0,0 -91,-13 -112,-54"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5499 12966c0,0 -88,-28 -108,-74"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5490 12882c0,0 -88,-28 -108,-74"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5479 12802c0,0 -80,-46 -90,-95"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5472 12703c0,0 -80,-46 -90,-95"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5469 12605c0,0 -80,-46 -90,-95"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5467 12496c0,0 -80,-46 -90,-95"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5471 12393c0,0 -80,-46 -90,-95"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5475 12303c0,0 -69,-61 -69,-111"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5486 12189c0,0 -69,-61 -69,-111"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5475 12303c0,0 -69,-61 -69,-111"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5506 12086c0,0 -69,-61 -69,-111"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5514 12015c0,0 -55,-74 -46,-123"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5540 11903c0,0 -55,-74 -46,-123"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5568 11794c0,0 -54,-74 -44,-123"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5600 11700c0,0 -54,-74 -44,-123"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5630 11613c0,0 -54,-74 -44,-123"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5662 11532c0,0 -39,-83 -20,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5703 11439c0,0 -39,-83 -20,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5743 11349c0,0 -39,-83 -20,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5788 11263c0,0 -39,-83 -20,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5835 11175c0,0 -39,-83 -20,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5887 11098c0,0 -39,-83 -20,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5933 11020c0,0 -39,-83 -20,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5983 10951c0,0 -39,-83 -20,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6027 10886c0,0 -28,-88 -3,-131"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6081 10813c0,0 -28,-88 -3,-131"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6133 10746c0,0 -28,-88 -3,-131"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6184 10686c1,4 -26,-82 -3,-131"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6238 10619c1,4 -26,-82 -3,-131"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6285 10565c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6345 10499c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6403 10427c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6458 10363c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6516 10303c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6576 10235c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6633 10176c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6697 10109c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6750 10048c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6806 9991c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6860 9931c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6921 9863c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M6970 9802c1,4 -11,-86 21,-129"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M7027 9743c1,4 -11,-86 21,-129"/>
+   </g>
+  </g>
+  <g id="marge_cilliee" onclick="parent.replacechar('marge_cilliee')" onmousemove="parent.showtooltip('marge_cilliee','Marge cilli&#233;e')" onmouseout="parent.hidetooltip('marge_cilliee')" cursor="pointer">
+    <metadata id="CorelCorpID_9">
+     <odm name="Name" value="cilie" type="0"/>
+    </metadata>
+   <polygon fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" points="9618,16190 9618,8585 11697,8585 11697,16190 "/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linecap="round" stroke-linejoin="bevel" d="M11711 9672c178,-221 297,-396 402,-631 0,0 0,0 0,0 512,1143 2147,1988 1826,4091 -181,1259 -1359,1591 -1804,2265 0,0 5,785 5,787 -5,5 -143,-3 -143,5 0,0 11,-620 0,-806 -13,-151 -256,-445 -294,-442"/>
+   <path fill="#78B43C" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M11697 14942l0 -5251c-712,852 -1788,1615 -1572,3242 159,1149 885,1507 1572,2009z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M12120 9224c14,1006 54,1947 30,2945 -5,1125 8,1791 -30,2915"/>
+   <g id="poils">
+     <metadata id="CorelCorpID_10">
+      <odm name="Name" value="poils" type="0"/>
+     </metadata>
+    <g>
+     <path fill="none" stroke="black" stroke-width="7.62" d="M11639 14901c-125,48 -74,120 -157,124"/>
+     <path fill="none" stroke="black" stroke-width="7.62" d="M11535 14829c-125,48 -74,120 -157,124"/>
+     <path fill="none" stroke="black" stroke-width="7.62" d="M11446 14764c-125,48 -74,120 -157,124"/>
+     <path fill="none" stroke="black" stroke-width="7.62" d="M11359 14703c-125,48 -74,120 -157,124"/>
+     <path fill="none" stroke="black" stroke-width="7.62" d="M11275 14645c-125,48 -74,120 -157,124"/>
+     <path fill="none" stroke="black" stroke-width="7.62" d="M11212 14595c-125,48 -74,120 -157,124"/>
+    </g>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M11096 14519c-128,37 -84,114 -167,111"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10999 14439c-128,37 -84,114 -167,111"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10915 14366c-128,37 -84,114 -167,111"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10833 14298c-128,37 -84,114 -167,111"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10765 14226c-128,37 -84,114 -167,111"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10701 14172c-128,37 -84,114 -167,111"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10641 14105c-133,6 -108,91 -188,68"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10560 14008c-133,6 -108,91 -188,68"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10495 13918c-133,6 -108,91 -188,68"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10432 13833c-133,6 -108,91 -188,68"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10385 13751c-133,6 -108,91 -188,68"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10342 13673c-133,6 -108,91 -188,68"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10304 13595c-129,-33 -130,55 -200,10"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10264 13484c-129,-33 -130,55 -200,10"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10228 13379c-129,-33 -130,55 -200,10"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10193 13278c-129,-33 -130,55 -200,10"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10173 13178c-129,-33 -130,55 -200,10"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10152 13092c-129,-33 -130,55 -200,10"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10130 12991c-116,-66 -140,19 -196,-42"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10119 12866c-116,-66 -140,19 -196,-42"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10112 12755c-116,-66 -140,19 -196,-42"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10104 12649c-116,-66 -140,19 -196,-42"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10095 12548c-116,-66 -140,19 -196,-42"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10094 12467c-116,-66 -140,19 -196,-42"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10106 12367c-103,-85 -141,-5 -185,-75"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10110 12241c-103,-85 -141,-5 -185,-75"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10122 12130c-103,-85 -141,-5 -185,-75"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10133 12024c-103,-85 -141,-5 -185,-75"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10153 11932c-103,-85 -141,-5 -185,-75"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10173 11846c-103,-85 -141,-5 -185,-75"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10194 11769c-74,-111 -133,-46 -155,-127"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10242 11653c-74,-111 -133,-46 -155,-127"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10286 11551c-74,-111 -133,-46 -155,-127"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10327 11453c-74,-111 -133,-46 -155,-127"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10379 11365c-74,-111 -133,-46 -155,-127"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10422 11287c-74,-111 -133,-46 -155,-127"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10476 11149c-50,-124 -122,-72 -127,-155"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10545 11044c-50,-124 -122,-72 -127,-155"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10609 10953c-50,-124 -122,-72 -127,-155"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10668 10864c-50,-124 -122,-72 -127,-155"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10724 10780c-50,-124 -122,-72 -127,-155"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10773 10716c-50,-124 -122,-72 -127,-155"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10845 10644c-28,-130 -108,-92 -98,-174"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M10926 10548c-28,-130 -108,-92 -98,-174"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M11005 10469c-28,-130 -108,-92 -98,-174"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M11078 10393c-28,-130 -108,-92 -98,-174"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M11132 10310c-28,-130 -108,-92 -98,-174"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M11212 10226c-28,-130 -108,-92 -98,-174"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M11281 10158c12,-133 -76,-119 -43,-196"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M11365 10049c12,-133 -76,-119 -43,-196"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M11457 9959c12,-133 -76,-119 -43,-196"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M11531 9875c12,-133 -76,-119 -43,-196"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M11594 9805c12,-133 -76,-119 -43,-196"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M11667 9722c12,-133 -76,-119 -43,-196"/>
+   </g>
+  </g>
+  <g id="marge_scabre" onclick="parent.replacechar('marge_scabre')" onmousemove="parent.showtooltip('marge_scabre','Marge scabre')" onmouseout="parent.hidetooltip('marge_scabre')" cursor="pointer">
+    <metadata id="CorelCorpID_11">
+     <odm name="Name" value="scabre" type="0"/>
+    </metadata>
+   <polygon fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" points="14246,16190 14246,8586 16325,8586 16325,16190 "/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linecap="round" stroke-linejoin="bevel" d="M16338 9672c178,-221 297,-396 402,-631 0,0 0,0 0,0 512,1143 2146,1987 1825,4090 -181,1259 -1359,1591 -1804,2265 0,0 5,785 5,787 -5,5 -143,-3 -143,5 0,0 11,-620 0,-806 -13,-151 -256,-445 -294,-442"/>
+   <path fill="#78B43C" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M16325 14941l0 -5250c-712,852 -1788,1615 -1572,3241 159,1149 884,1507 1572,2009z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M16748 9225c14,1006 54,1947 30,2944 -5,1124 8,1790 -30,2915"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M15880 14625c-54,51 -178,76 -307,-54 148,67 194,-8 189,-32 24,16 100,86 119,86z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M16170 9865c-62,-43 -96,-138 34,-272 -66,138 33,171 55,167 -10,25 -90,91 -89,105z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M15970 10083c-65,-54 -105,-151 38,-272 -65,132 19,170 59,167 -30,24 -97,89 -97,105z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M15756 10314c-59,-45 -96,-138 33,-268 -64,128 27,165 65,151 -15,41 -91,99 -99,117z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M15548 10555c-57,-57 -92,-150 54,-267 -82,123 5,168 35,164 -12,24 -88,87 -89,104z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M15353 10794c-62,-57 -100,-148 30,-275 -51,132 32,170 54,162 -5,24 -84,86 -84,113z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M15168 11057c-75,-43 -119,-135 0,-278 -40,137 43,167 78,159 -19,22 -84,97 -78,119z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M15016 11321c-74,-39 -134,-130 -28,-269 -30,135 65,160 83,148 -3,29 -59,112 -55,121z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M14897 11580c-84,-35 -151,-113 -54,-270 -19,148 84,156 100,148 0,22 -51,105 -46,121z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M14819 11834c-73,-27 -151,-97 -84,-262 0,137 100,137 119,127 0,30 -40,119 -35,135z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M14751 12113c-79,-9 -172,-78 -121,-244 25,142 119,130 142,115 1,19 -28,118 -22,128z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M14735 12381c-89,-16 -186,-76 -151,-245 38,140 132,127 151,108 5,24 -11,121 0,138z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M14731 12642c-78,0 -183,-54 -173,-232 54,143 148,124 162,94 11,32 0,127 11,138z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M14757 12934c-84,8 -189,-40 -189,-216 59,132 156,108 167,89 11,19 11,116 22,127z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M14806 13214c-78,16 -186,-22 -208,-191 67,127 159,86 175,65 8,24 22,119 32,127z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M14897 13487c-84,24 -202,-14 -229,-186 84,121 175,78 181,62 11,22 35,113 49,124z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M15021 13758c-78,32 -189,16 -256,-135 100,100 178,40 183,22 19,11 62,108 73,113z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M15186 14001c-59,38 -178,38 -267,-111 119,102 178,30 178,8 35,14 81,102 89,102z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M15391 14224c-59,48 -192,60 -292,-91 128,82 188,12 184,-7 31,18 92,97 108,97z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M15633 14446c-49,43 -156,70 -291,-59 140,67 178,-11 173,-35 40,8 102,94 119,94z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M16156 14816c-49,59 -162,89 -291,-46 146,67 178,-14 173,-30 40,8 100,76 119,76z"/>
+  </g>
+  <g id="marge_crenelee" onclick="parent.replacechar('marge_crenelee')" onmousemove="parent.showtooltip('marge_crenelee','Marge cr&#233;nel&#233;e')" onmouseout="parent.hidetooltip('marge_crenelee')" cursor="pointer">
+    <metadata id="CorelCorpID_12">
+     <odm name="Name" value="crenelee" type="0"/>
+    </metadata>
+   <path fill="none" stroke="#2C2C2B" stroke-width="7.62" stroke-linejoin="bevel" d="M20948 14953c30,19 205,221 229,351 22,132 -11,752 -46,903"/>
+   <line fill="none" stroke="#2C2C2B" stroke-width="7.62" stroke-linejoin="bevel" x1="21132" y1="16207" x2="21267" y2= "16201" />
+   <path fill="none" stroke="#2C2C2B" stroke-width="7.62" stroke-linejoin="bevel" d="M21267 16201c16,-105 43,-949 345,-1130 191,19 248,3 235,-138 189,67 181,-38 197,-127 170,40 181,-51 181,-143 -8,-22 218,97 216,-151 270,38 164,-189 170,-194 275,65 197,-151 202,-202 283,3 138,-191 156,-232 208,22 156,-116 113,-178 124,-19 183,-100 67,-229 19,-3 216,-51 57,-200 200,-84 119,-151 38,-205 191,-78 86,-129 46,-186 159,-78 24,-167 -14,-181 156,-81 65,-129 3,-170 181,-94 8,-175 -22,-186 173,-129 30,-213 -32,-237 97,-62 102,-208 -57,-253 148,-151 -30,-210 -84,-235 127,-156 -8,-216 -94,-226 143,-189 -13,-259 -137,-240 97,-280 -108,-259 -186,-270 100,-226 -5,-272 -191,-256 73,-253 -129,-197 -173,-178 30,-100 22,-213 -165,-210 43,-132 -51,-226 -175,-173 86,-181 -89,-175 -132,-156 73,-170 0,-181 -119,-173 54,-59 35,-200 -100,-173 54,-54 3,-183 -127,-135 -32,-40 46,-156 -146,-124 -94,-138 -191,-348 -256,-361 -62,-14 -84,439 -124,547"/>
+   <path fill="#78B43C" stroke="#2C2C2B" stroke-width="7.62" stroke-linejoin="bevel" d="M20951 9522l0 5436c-186,-86 -259,-46 -245,-186 -189,67 -170,-24 -186,-113 -170,40 -170,-19 -170,-111 8,-22 -218,97 -216,-151 -270,38 -164,-189 -170,-194 -275,65 -197,-151 -202,-202 -283,3 -138,-191 -156,-232 -208,22 -156,-116 -113,-178 -124,-19 -183,-100 -67,-229 -19,-3 -216,-51 -57,-200 -200,-84 -70,-148 -38,-205 -191,-78 -30,-162 -30,-170 -164,-92 -40,-183 -3,-197 -156,-81 -43,-124 -3,-170 -181,-94 -8,-175 22,-186 -173,-129 -30,-213 32,-237 -97,-62 -102,-208 57,-253 -148,-151 30,-210 84,-235 -127,-156 8,-216 94,-227 -143,-189 13,-259 138,-240 -97,-280 108,-259 186,-270 -100,-227 5,-272 191,-256 -73,-253 129,-197 173,-178 -30,-100 -22,-213 164,-210 -43,-132 51,-227 175,-173 -86,-181 89,-175 132,-156 -57,-191 54,-135 119,-119 -46,-51 -16,-140 49,-162l40 3z"/>
+   <polyline fill="none" stroke="#2C2C2B" stroke-width="7.62" stroke-linejoin="bevel" points="21113,9320 21356,11439 21385,13489 21310,15115 "/>
+   <polygon fill="none" stroke="#2C2C2B" stroke-width="7.62" stroke-linejoin="bevel" points="18872,16196 18872,8587 20951,8587 20951,16196 "/>
+  </g>
+ </g>
+<image xlink:href="tick.gif" id="imgtick" x="-10000" y="-10000" width="1500" height="1500"/>
+<rect id="recttooltip" x="-10000" y="-10000" width="5500" height="600" fill-opacity="0.85" pointer-events="none"/>
+<text id="textboxid" x="-10000" y="-10000" pointer-events="none"> </text>
+</a></svg>

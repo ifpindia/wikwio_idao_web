@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="240mm" height="180mm" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 24000 18000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<a>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="Coty_ellip" onclick="parent.replacechar('Coty_ellip')" onmousemove="parent.showtooltip('Coty_ellip','Elliptique r&#233;duit')" onmouseout="parent.hidetooltip('Coty_ellip')" cursor="pointer">
+    <metadata id="CorelCorpID_1">
+     <odm name="Name" value="Elliptique réduit" type="0"/>
+    </metadata>
+   <path fill="#009037" stroke="black" stroke-width="7.62" d="M1613 7263c-6,-105 -18,-341 -54,-405 -346,-429 -620,-637 -616,-1040 7,-765 313,-1436 723,-1413 410,22 670,640 658,1427 -7,473 -421,711 -536,1021 -44,171 -41,340 -43,413 -51,-1 -23,-2 -130,-2z"/>
+   <line fill="none" stroke="black" stroke-width="7.62" x1="1660" y1="4601" x2="1660" y2= "6870" />
+  </g>
+  <g id="Coty_corde" onclick="parent.replacechar('Coty_corde')" onmousemove="parent.showtooltip('Coty_corde','Cotyl&#233;dons cord&#233;s')" onmouseout="parent.hidetooltip('Coty_corde')" cursor="pointer">
+    <metadata id="CorelCorpID_2">
+     <odm name="Name" value="Cordé" type="0"/>
+    </metadata>
+   <path fill="#009037" stroke="black" stroke-width="7.62" d="M4563 4583l0 2682 -270 0 -20 -2672c-1,-113 -73,-286 -157,-191 -84,95 -78,143 -235,238 -157,95 -606,105 -886,-140 -281,-244 -427,-955 -211,-1580 216,-624 1072,-1066 1664,-1047 591,19 1374,425 1576,1134 202,709 52,1223 -278,1506 -330,284 -795,146 -875,68 -80,-79 -118,-200 -215,-206 -97,-7 -93,207 -93,207z"/>
+   <line fill="none" stroke="black" stroke-width="7.62" x1="4419" y1="2201" x2="4419" y2= "4461" />
+   <path fill="none" stroke="black" stroke-width="7.62" d="M4418 4290c178,-395 1015,387 1195,-775"/>
+   <path fill="none" stroke="black" stroke-width="7.62" d="M4421 4307c-59,-337 -1251,273 -1356,-660"/>
+  </g>
+  <g id="Coty_orbic" onclick="parent.replacechar('Coty_orbic')" onmousemove="parent.showtooltip('Coty_orbic','Cotyl&#233;dons orbiculaires')" onmouseout="parent.hidetooltip('Coty_orbic')" cursor="pointer">
+    <metadata id="CorelCorpID_3">
+     <odm name="Name" value="0rbiculaire" type="0"/>
+    </metadata>
+   <path fill="#009037" stroke="black" stroke-width="7.62" d="M8574 7265l-285 0 -19 -1709c0,0 -1500,-997 -1500,-1946 0,-949 1054,-1756 1633,-1766 579,-10 1699,987 1671,1756 -28,769 -1187,1785 -1500,1956 10,228 0,1709 0,1709z"/>
+   <line fill="none" stroke="black" stroke-width="7.62" x1="8431" y1="2025" x2="8431" y2= "5547" />
+  </g>
+  <g id="Coty_sagitte" onclick="parent.replacechar('Coty_sagitte')" onmousemove="parent.showtooltip('Coty_sagitte','Cotyl&#233;dons sagitt&#233;s')" onmouseout="parent.hidetooltip('Coty_sagitte')" cursor="pointer">
+    <metadata id="CorelCorpID_4">
+     <odm name="Name" value="Sagité" type="0"/>
+    </metadata>
+   <path fill="#009037" stroke="black" stroke-width="7.62" d="M11968 7265l-257 0 0 -1362c0,-155 -507,-28 -789,-84 -389,-77 -391,-271 -335,-729 107,-876 806,-3184 1207,-3239 308,-42 1179,2405 1279,3071 42,283 232,872 -370,944 -188,23 -755,-174 -729,36 -1,208 11,1101 -6,1362z"/>
+   <line fill="none" stroke="black" stroke-width="7.62" x1="11830" y1="2246" x2="11830" y2= "5724" />
+  </g>
+  <g id="Coty_lineaire" onclick="parent.replacechar('Coty_lineaire')" onmousemove="parent.showtooltip('Coty_lineaire','Cotyl&#233;dons lin&#233;aires')" onmouseout="parent.hidetooltip('Coty_lineaire')" cursor="pointer">
+    <metadata id="CorelCorpID_5">
+     <odm name="Name" value="Linéaire" type="0"/>
+    </metadata>
+   <path fill="#009037" stroke="black" stroke-width="7.62" d="M14495 6208l0 1057 -134 0 0 -1046c-207,-118 -412,-832 -391,-2129 22,-1409 230,-2163 422,-2185 187,33 450,816 467,2185 15,1204 -168,1962 -363,2117z"/>
+   <line fill="none" stroke="black" stroke-width="7.62" x1="14420" y1="2235" x2="14420" y2= "6170" />
+  </g>
+  <g id="Coty_oblong" onclick="parent.replacechar('Coty_oblong')" onmousemove="parent.showtooltip('Coty_oblong','Cotyl&#233;dons oblongs')" onmouseout="parent.hidetooltip('Coty_oblong')" cursor="pointer">
+    <metadata id="CorelCorpID_6">
+     <odm name="Name" value="Oblong" type="0"/>
+    </metadata>
+   <path fill="#009037" stroke="black" stroke-width="7.62" d="M16439 7265l-177 -9 -9 -856c-1,-111 -643,-413 -647,-1885 -1,-374 -98,-2635 718,-2608 727,25 713,1962 696,2616 -21,842 -34,1073 -581,1872 9,168 0,869 0,869z"/>
+   <line fill="none" stroke="black" stroke-width="7.62" x1="16344" y1="2090" x2="16344" y2= "6276" />
+  </g>
+  <g id="Coty_emargine" onclick="parent.replacechar('Coty_emargine')" onmousemove="parent.showtooltip('Coty_emargine','Cotyl&#233;dons &#233;margin&#233;s')" onmouseout="parent.hidetooltip('Coty_emargine')" cursor="pointer">
+    <metadata id="CorelCorpID_7">
+     <odm name="Name" value="Emarginé" type="0"/>
+    </metadata>
+   <path fill="#009037" stroke="black" stroke-width="7.62" d="M18942 7265l-331 0c0,0 42,-416 -42,-756 -85,-340 -909,-1292 -867,-2617 42,-1326 181,-1389 218,-1497 37,-108 200,-395 400,-412 200,-17 337,110 453,116 115,6 351,-277 644,18 293,295 482,1365 393,2200 -133,1250 -662,1397 -807,2184 -85,459 -59,765 -59,765z"/>
+   <line fill="none" stroke="black" stroke-width="7.62" x1="18786" y1="2282" x2="18786" y2= "6553" />
+  </g>
+  <g id="Coty_tronque" onclick="parent.replacechar('Coty_tronque')" onmousemove="parent.showtooltip('Coty_tronque','Cotyl&#233;dons tronqu&#233;s')" onmouseout="parent.hidetooltip('Coty_tronque')" cursor="pointer">
+    <metadata id="CorelCorpID_8">
+     <odm name="Name" value="Tronqué" type="0"/>
+    </metadata>
+   <path fill="#009037" stroke="black" stroke-width="7.62" d="M21883 6394c36,-486 1062,-1256 1244,-1988 177,-708 135,-1375 -414,-2073 -191,-243 -295,-354 -951,-375 -589,-19 -767,86 -1021,389 -595,709 -372,1926 -325,2048 257,662 1070,1370 1201,1989 38,181 41,877 41,877l214 5c8,-557 -1,-13 11,-871z"/>
+   <line fill="none" stroke="black" stroke-width="7.62" x1="21741" y1="2138" x2="21741" y2= "6198" />
+  </g>
+  <g id="Coty_reniforme" onclick="parent.replacechar('Coty_reniforme')" onmousemove="parent.showtooltip('Coty_reniforme','Cotyl&#233;dons reniformes')" onmouseout="parent.hidetooltip('Coty_reniforme')" cursor="pointer">
+    <metadata id="CorelCorpID_9">
+     <odm name="Name" value="Reniforme" type="0"/>
+    </metadata>
+   <path fill="#009037" stroke="black" stroke-width="7.62" d="M2555 15010l-134 -6c0,0 9,-412 -134,-452 -143,-41 -811,-269 -849,-755 -37,-487 150,-799 275,-1086 125,-287 200,-836 -12,-1685 -212,-849 62,-1048 337,-1223 275,-175 973,50 1273,899 300,849 262,1460 225,2047 -37,587 -359,1385 -649,1610 -290,225 -315,234 -328,359 -12,125 -3,293 -3,293z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" d="M2487 14557c112,-412 923,-3107 -200,-4518"/>
+  </g>
+  <g id="Coty_bilobe" onclick="parent.replacechar('Coty_bilobe')" onmousemove="parent.showtooltip('Coty_bilobe','Cotyl&#233;dons bilob&#233;s')" onmouseout="parent.hidetooltip('Coty_bilobe')" cursor="pointer">
+    <metadata id="CorelCorpID_10">
+     <odm name="Name" value="Bilobé" type="0"/>
+    </metadata>
+   <path fill="#009037" stroke="black" stroke-width="7.62" d="M6049 15010c-58,-7 -90,-1 -170,-4 -4,-197 29,-679 -73,-972 -64,-183 -578,291 -830,-245 -346,-733 -1225,-3278 -915,-3811 491,-844 1222,1649 1894,1679 596,27 1456,-2596 1852,-1679 254,588 -668,3525 -917,3860 -296,398 -627,57 -754,164 -93,78 -77,829 -88,1009z"/>
+   <g>
+    <polyline fill="none" stroke="black" stroke-width="7.62" points="5956,13991 5956,13906 5956,11660 "/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5953 13842c-649,213 -1331,-1245 -1565,-2118"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5926 13842c649,213 1331,-1245 1565,-2118"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5954 12262c0,0 -897,-501 -974,-1196"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M5960 12260c0,0 897,-501 974,-1197"/>
+   </g>
+  </g>
+  <g id="Coty_bilobe_l" onclick="parent.replacechar('Coty_bilobe_l')" onmousemove="parent.showtooltip('Coty_bilobe_l','Cotyl&#233;dons bilob&#233;s dent&#233;s')" onmouseout="parent.hidetooltip('Coty_bilobe_l')" cursor="pointer">
+   <path fill="#009037" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M10425 15010c13,-300 -19,-609 -48,-912 -378,192 -1644,-60 -920,-287 241,-76 19,-187 -123,-336 -791,-841 -1330,-3693 -550,-3693 386,0 1110,1913 1662,1913 555,0 1258,-1921 1646,-1921 713,0 182,2638 -464,3636 -113,170 -359,330 -139,409 713,254 -603,460 -936,273 -35,303 -13,614 -13,915l-115 3z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M9211 11024c169,555 644,982 1225,1280m-1225 -1280l0 0 0 0z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M11691 10978c-129,617 -598,901 -1193,1358m1193 -1358l0 0 0 0z"/>
+   <line fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" x1="10482" y1="11847" x2="10482" y2= "14112" />
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M11970 11625c-169,839 -737,2389 -1472,2311m1472 -2311l0 0 0 0z"/>
+   <path fill="none" stroke="black" stroke-width="7.62" stroke-linejoin="bevel" d="M8991 11676c252,993 721,2262 1456,2262m-1456 -2262l0 0 0 0z"/>
+  </g>
+  <g id="Coty_bilobeBis" onclick="parent.replacechar('Coty_bilobeBis')" onmousemove="parent.showtooltip('Coty_bilobeBis','Cotyl&#233;dons profondement bilob&#233;s')" onmouseout="parent.hidetooltip('Coty_bilobeBis')" cursor="pointer">
+    <metadata id="CorelCorpID_11">
+     <odm name="Name" value="Profondement bilobé" type="0"/>
+    </metadata>
+   <path fill="#009037" stroke="black" stroke-width="7.62" d="M15261 14134l-11 876 -157 -4 -10 -878c-386,-46 -675,-138 -838,-406 0,0 -1130,-1167 -1168,-2975 -39,-1808 624,-635 783,-327 159,308 782,1564 1020,1834 238,270 532,125 817,-287 285,-412 270,-704 778,-1580 508,-876 567,-664 614,-355 254,1665 -463,3008 -979,3640 -60,74 -244,367 -849,460z"/>
+   <g>
+    <polyline fill="none" stroke="black" stroke-width="7.62" points="15160,14134 15160,14069 15160,12392 "/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M15157 13983c-660,216 -1352,-1266 -1590,-2153"/>
+    <path fill="none" stroke="black" stroke-width="7.62" d="M15130 13983c660,216 1352,-1266 1590,-2153"/>
+   </g>
+  </g>
+  <g id="Coty_asym" onclick="parent.replacechar('Coty_asym')" onmousemove="parent.showtooltip('Coty_asym','Cotyl&#233;dons asym&#233;triques')" onmouseout="parent.hidetooltip('Coty_asym')" cursor="pointer">
+   <g>
+    <path fill="#009037" stroke="black" stroke-width="7.62" d="M19516 14995l-181 15 -75 -1961c0,0 -45,-603 -362,-754 -317,-151 -347,-136 -800,-543 -453,-407 -30,-1735 603,-1916 513,-136 784,-136 1237,30 468,271 1056,1373 649,1855 -407,483 -672,431 -905,679 -275,293 -108,1035 -166,2595z"/>
+    <line fill="none" stroke="black" stroke-width="7.62" x1="19335" y1="12400" x2="19335" y2= "9836" />
+   </g>
+   <g>
+    <path fill="#009037" stroke="black" stroke-width="7.62" d="M21750 14897l-136 7 -22 -785c0,0 -93,-516 -280,-832 -186,-315 -487,-706 -523,-1057 -36,-351 201,-645 487,-917 287,-272 502,-258 717,-14 215,244 487,480 480,896 -7,416 -365,760 -494,1097 -129,337 -172,655 -201,813 -29,158 -29,792 -29,792z"/>
+    <line fill="none" stroke="black" stroke-width="7.62" x1="21676" y1="14106" x2="21676" y2= "11154" />
+   </g>
+  </g>
+ </g>
+<image xlink:href="tick.gif" id="imgtick" x="-10000" y="-10000" width="1500" height="1500"/>
+<rect id="recttooltip" x="-10000" y="-10000" width="5500" height="600" fill-opacity="0.85" pointer-events="none"/>
+<text id="textboxid" x="-10000" y="-10000" pointer-events="none"> </text>
+</a></svg>

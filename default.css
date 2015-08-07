@@ -4,12 +4,12 @@ body, form {
 }
 
 #pageright {
-	float:right;
+	float:left;
 	background-color:#E3EBEC;
 	margin:0;
 	padding:0;
 	height:700px;
-	width:185px;
+	width:14%;
 }
 
 

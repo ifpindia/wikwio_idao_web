@@ -137,6 +137,7 @@ input:focus {
 	
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 <script src="lib.js" type="text/javascript"></script>
+<script src="messages/<?= $lang; ?>/tooltips.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/list.min.js"></script>    
 <script type="text/javascript" src="js/main.js"></script>
 

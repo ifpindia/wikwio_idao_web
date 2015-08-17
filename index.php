@@ -18,6 +18,7 @@
 	echo "<title>".$title."</title>";
 ?> 
 	<script src="lib.js" type="text/javascript"></script>
+	<script src="messages/<?= $lang; ?>/tooltips.js" type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="default.css">
 </head>
 

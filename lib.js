@@ -140,7 +140,9 @@ function showtooltip(cid, tiptext)
 	node.setAttribute("y", newy + 400);
 	node.setAttribute("style", "font:380px verdana,Trebuchet MS, sans-serif;pointer-events:none;fill:#black");
 
-	response = tiptext;
+	/*response = tiptext;*/
+	response = tooltips[cid];
+	console.log("cid ="+cid+" tooltips ="+response+" tiptext ="+tiptext);
 	response = response.replace("&gt;", ">");
 	response = response.replace("&lt;", "<");
 	response = response.replace("&amp;", "&");
@@ -227,7 +229,9 @@ function showrobotip(cid, tiptext)
 		newx = newx + 2000;
 	var newy = bbox.y + 2; 	
 	
-	response = tiptext;
+	//response = tiptext;
+	console.log(tooltips[cid] +" tiptext = "+tiptext+" cid="+cid);
+	response = tooltips[cid];
 
 	new_width = response.length * 1.5 + response.length * 0.4 + 6;			
 	rectbox.setAttribute("width",new_width*100);

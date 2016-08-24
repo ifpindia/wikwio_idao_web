@@ -43,14 +43,25 @@ ob_start();
 		//alert (document.body.clientHeight);
 	</script>
 	<form name="frmgeneral" method="post" action="">
-		<div style="float:left; width:80%">		
+		<div style="float:left; width:70%">		
 		<h4><?= $menu_value[6]; ?></h4><br>	
 		<?php
 				include_once("lib.php");
 				getConn();			
-				getParameters();		
-				$store = $_POST["txtstore"];
-				$appstr = $_POST["txtappstr"];
+				getParameters();	
+
+				$txtappstr = $_POST['txtappstr'];	
+
+				if ( isset($_POST["txtstore"]) )
+				{
+					$_SESSION["txtstore"] = $_POST["txtstore"];
+					$_SESSION["txtappstr"] = $_POST["txtappstr"];
+				}
+
+				$store = $_SESSION["txtstore"];
+				$appstr = $_SESSION["txtappstr"];
+
+
 				if (isset($_POST["cbopercent"]))
 					$usrpercent = $_POST["cbopercent"];
 				else
@@ -98,7 +109,7 @@ ob_start();
 				
 				
 				echo "<div align='center'>";
-				echo "<div style='height: 450px; width: 570px; overflow-y: scroll;'>";
+				echo "<div style='float: right; margin-right: 10vw; height: 600px; width: 750px; overflow-y: scroll;'>";
 				echo "<table class='tablesorter'  id=\"resultstable\" cellpadding=\"3\">";				
 				echo "<thead><tr class='rowtop'>";
 				echo "<th style=\"width:25%;\">".$menu_text['species']."</th>";
@@ -115,7 +126,7 @@ ob_start();
 				{
 					if ($val < $usrpercent)
 						continue;
-					$query = "select * from flore where code = '$key'";
+					$query = "select Espece,portal_url from flore where code = '$key'";
 					$data = $conn->select($query, 'OBJECT');
 					if ($trow % 2 == 0)
 						echo "<tr class='rowone'>";
@@ -124,7 +135,7 @@ ob_start();
 						
 					if (sizeof($data) == 1)
 					{
-                                                $url_d = $data->portal_url;
+                        $url_d = $data->portal_url;
 						// $url = $targeturl . $key;
 						$url = $targeturl . substr($key, 0,1) . "/" . $key ."/";
 						$url = $url . $key . "_fr.html";
@@ -158,21 +169,28 @@ ob_start();
 		</div>
 
 		<div id="pageright">
-			<div id="header"><h1>WIKWIO</h1></div>
+			<!-- <div id="header"><h1>WIKWIO</h1></div> -->
+			<img class="img" src="images/header.jpg" alt="Wikwio" HEIGHT='38%' WIDTH='100%'  />
 			<div id="navbuttons">
 				<?php include_once('navbutton.php'); ?>
 			</div>	
-			<br><br>
-			<div align="center"><a href="javascript:history.go(-1);" class="button center green" style="width: 40px;"><?= $menu_text['back'];?></a></div>
-			<?php
+			<br>
+			<?php	
+				getConn();			
+				getParameters();		
+				apparrayinit();
 				calculateper();
-				echo "<p class='result'>" . $_GLOBALS['topcount'] . " espèces à " . $_GLOBALS['pertop'] . "%</p>";
+				echo "<p class='result'>" . $_GLOBALS['topcount'] .  " ".$menu_text['species']." ".$menu_text['at']." ".$_GLOBALS['pertop']."%</p>";
+				ob_end_flush();
 			?>
+			<br>
+			<div align="center"><a href="javascript:void(0);" onClick="showcancel()" class="button center green" style="width: 4vw;"><?= $menu_text['back'];?></a></div>
 		</div>
 		
 		<input type="hidden" name="txtspcode" id="txtspcode">
 		<input type="hidden" name="txtcharname" id="txtcharname">
 		<input type="hidden" name="txtstore" id="txtstore" value="<?php echo $store; ?>">
+		<input type="hidden" name="txtappstr" id="txtappstr" value="<?php echo $txtappstr; ?>">
 	</form>	
 </div>
 

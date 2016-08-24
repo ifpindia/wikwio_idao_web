@@ -1,4 +1,4 @@
-<?php
+<?php 
 	include_once("lib.php");
 	$lang = getLanguage($_GET['lang']);
 	include_once('messages_'.$lang.'.php');	
@@ -22,174 +22,118 @@
 <div id="pageleft">
 
 <?php
+	// session_start();
 	getConn();
 	getParameters();
-	
-	$store = $_POST["txtstore"];
+
+	if ( isset($_POST["txtstore"]) )
+	{
+		$_SESSION["txtstore"] = $_POST["txtstore"];
+		$_SESSION["txtappstr"] = $_POST["txtappstr"];
+	}
+
+	$store = $_SESSION["txtstore"];
+	$appstr = $_SESSION["txtappstr"];
 	
 	if (strlen($store) == 1)
 		for ($i=0; $i<$_GLOBALS["no_state"]; $i++)
 			$store .= "0";
 	
+
+	for ($i = 0; $i < strlen($appstr); $i++)
+		$appellable[$i] = substr($appstr, $i, 1);
+
+
 	$showflag = 0;
 	calculateper();
 	if ($_GLOBALS['topcount'] == 1)
 	{
-		echo "<p align='center' class='warning'>Il n'y a plus qu'une espèce !</p>";
+		echo "<p align='center' class='warning'>".$menu_text['OneSpicieLeft']."</p>";
 		$showflag = 1;		
 	}	
 	
-	$s = array();
-	$tri = array();	
-	$matrice = array();
-	$etat = array();
 
 		// convert the user selections from string to an array
 	$usrstore = array();
+	$Questions = array();
 	
 	for ($i=0; $i<$_GLOBALS["no_state"]; $i++)
 		$usrstore[$i] = substr($store, $i, 1);
-	
-	$appstr = $_POST["txtappstr"];				
-	
-	// get the appellable string and convert it to array
-	for ($i = 0; $i < strlen($appstr); $i++)
-		$appellable[$i] = substr($appstr, $i, 1);	
-		
-	// Initialize the tri array	
-	//$tri = array();
-	//for ($i = 0; $i < $_GLOBALS["no_species"]; $i++)
-	//	$tri[1][$i] = $i;
-		
-	// Initialize the matrice array
-	$sql = "select * from flore";
-	$data = $conn->select($sql,'OBJECT');
-	
-	for ($i = 0; $i < sizeof($data); $i++)
-	{
-		$charsql = "select * from caracteres";
-		$chardata = $conn->select($charsql,'OBJECT');
-		//echo "<br>";
-		for ($j = 0; $j < sizeof($chardata); $j++)
-		{
-			$char = $chardata[$j]->ID_CARAC;
-			$matrice[$i][$j] = 0;
-			$matrice[$i][$j] = $data[$i]->$char;
-			//echo $matrice[$i][$j] . "&nbsp;&nbsp;&nbsp;&nbsp;";
-		}		
-	}
-	
 
-	$nombre = sizeof($data);
-	$max = 1;
-	$compteur = 0;
-	$sql = "select * from objets_fic order by Objet";
+
+
+	$sql = "select Index_Car,Nb_Car,Objet from objets_fic order by Index_Car";
 	$data = $conn->select($sql,'OBJECT');
-	$obj_reccount = sizeof($data);
-	for ($ij =0; $ij < $obj_reccount; $ij++)
+	$eps = 0;
+	for ($i=0; $i<count($data); $i++)
 	{
-		$dno = $data[$ij]->Desc_Num;
-		/*echo "<br>Index Value: " . $ij;
-		echo "<br>Desc No: " . $dno . " - ". $data[$ij]->Objet;
-		echo "<br>Appellable value " . $appellable[$dno];  */
-		
-		if ($appellable[$data[$ij]->Desc_Num] == 1)
-		{	
-			$provenance  = -1;
-			$index_car= $data[$ij]->Index_Car;
-			$nb_car = $data[$ij]->Nb_Car;
-			for ($i = $index_car; $i <= $index_car + $nb_car -1 ; $i++)
-				if ($usrstore[$i] <> "0")
-					$provenance = $i - $data[$ij]->Index_Car;
-					
-			//echo "<Br>Provenance: " . $provenance;			
+		$Index_car = $data[$i]->Index_Car;
+		$Nb_car = $data[$i]->Nb_Car;
+
+		if ( zeros( $usrstore, $Index_car, $Nb_car ) AND ( $appellable[$i] == 1 ) )	
+		{
+			// echo "Yes";
+			$Questions[$i-$eps] = $data[$i]->Objet;
 		}
 		else
 		{
-			$provenance = 1;	
-			$s[$compteur] = 0;
-		}
-		//echo "<br>" . $ij. " - ". $data[$ij]->Objet . "  " . $provenance   ;
-		
-		/*echo "<br>Index_car : " . $index_car;
-		echo "<br>"; */
-		
-		//echo $nombre; */
-		if ($provenance == -1)
-		{
-			//echo "No. of cars: " . $nb_car;
-			$statval = 0;
-
-			for ($j = 0; $j <=  $nb_car - 1; $j++)
-				$etats[$j] = 0;
-					 
-			for ($i = 0; $i <= $nombre - 1 ; $i++)
-			{
-				//echo "<br>";					 
-				for ($j = 0; $j <=  $nb_car - 1; $j++)
-				{					
-					$etats[$j] = $etats[$j]  + $matrice[$i][$j + $index_car];
-					//echo  $matrice[$i][$j + $index_car] . " ";
-					//$etats[$j] = $c;
-				}
-				
-			}
-			//echo "<br>State val: " . $c;
-			//for ($j = 0; $j <=  $nb_car - 1; $j++)
-				//echo $etats[$j]. "&nbsp;&nbsp;&nbsp;&nbsp;"; 
-			//echo "<br>S value calculation: "; 
-			$s[$compteur] = 0;
-			for ($i = 0; $i <= $nb_car - 1 ; $i++)
-			{
-				if ($etats[$i] <> "0")
-				{
-					$val = $etats[$i] / $nombre * log($nombre / $etats[$i]) / log($nb_car);
-					$s[$compteur] = $s[$compteur] - $etats[$i] / $nombre * log($nombre / $etats[$i]) / log($nb_car);
-					//echo "<br>s - $compteur val : " . $s[$compteur] . " val :" . $val;
-				}	
-			}		
-			$s[$compteur] = abs($s[$compteur]);
- 		}
-		else
-			$s[$compteur] = 0;
-		$compteur = $compteur + 1;
-	}	
-
-	// sort the array and get the maximum	
-	$max = 0;
-	for ($i = 0; $i <= $compteur - 1; $i++)
-	{
-		if ($max < $s[$i])
-		{
-			$max = $s[$i];		   
-			$numero = $i;
+			$eps++;
 		}
 	}
-	
-	//for ($i = 0; $i <= $compteur - 1; $i++)
-	//	echo  "<br>" . $s[$i];
 
-	if ($max <> "0")
-	{		
-		$sql = "select * from objets_fic order by Objet";
-		$data = $conn->select($sql,'OBJECT');
-		$dno = $data[$numero]->Desc_Num;
-		$questname = "quest/" . $data[$numero]->Popup;	
-		$qname = $data[$numero]->Desc_Num;
-		$cname = $data[$numero]->Objet;
-	}
-	else
+	if (sizeof($Questions) == 0)
 	{
-		
+		echo "<p align='center' class='warning'>".$menu_text['NoQuestLeft']."</p>";
 	}
+
+	// print_r($usrstore);
+	$str = Create_str( $usrstore, 0 )[0];
+
+	$sql = "SELECT Code FROM `flore` WHERE $str";	
+	$Result = $conn->select($sql,'OBJECT');	
+
+
+	$numero = Best_Question($Questions,$str,count($Result));
 	
+
+	$sql = "select Objet,Popup,Desc_Num from objets_fic order by Index_Car";
+	$data = $conn->select($sql,'OBJECT');
+
+	for ( $i = 0 ; $i < count($data) ; $i++ )
+	{
+		if ( $data[$i]->Objet == $Questions[$numero] )
+			$num = $i;
+	}
+
+	// $dno = $data[$num]->Desc_Num;
+	$questname = "quest/" . $data[$num]->Popup;	
+	$qname = $num;		// $qname = $data->Desc_Num;
+	$cname = $data[$num]->Objet;
+
+
+	if ($_GLOBALS['topcount'] == 1)
+		?>
+
+		<script> 
+		var Quest = '<?php echo $cname; ?>';
+		</script>
+
+		<?php
+		$Msg_Quest = '<script> document.write(tooltips[Quest]);  </script>';
+		?>
+		<div id="Msg_Quest" style=" font-size: 1.3vw; text-align: center; font-weight: bold; width: 32%; padding-top: 0.8vw; padding-bottom: 0.8vw; position: relative; top: 0.8vw; left: 32%; border: 0.25vw solid #E97900; border-radius: 2vw; " >
+		<?php echo $Msg_Quest; ?>
+		</div>
+
+		<?php
+
+
 	if ($showflag == 0)
 	{
 		$agent = $_SERVER['HTTP_USER_AGENT'];
-		//echo "<form name=\"frmquest\" method=\"post\" action=\"redrawdefault.php\">";
 		if (eregi("MSIE", $agent)) 
 		{
-			$str = '<embed id="svgquest" name="svgquest" type="image/svg+xml" src="' . $questname . '" width="100%" height="100%"/>';	
+			$str = '<embed id="svgquest" name="svgquest" type="image/svg+xml" src="' . $questname . '" width="84%" height="100%" style="margin-left: 4.4vw; margin-top:1vw" />';	
 			echo "<script type=\"text/javascript\" src=\"writethis.js\"></script>\n";
 			$jval .= "<script type=\"text/javascript\">\n";
 			$jval .= " var strtowrite= '$str';\n";
@@ -200,10 +144,9 @@
 		}
 		else
 		{
-			echo('<object id="svgquest" name="svgquest" type="image/svg+xml" data="' . $questname . '" width="100%" height="100%"><param name="src" value="' . $questname. '"></object>');
+			echo('<object id="svgquest" name="svgquest" type="image/svg+xml" data="' . $questname . '" width="84%" height="100%" style="margin-left: 4.4vw; margin-top:1vw" ><param name="src" value="' . $questname. '"></object>');
 		} 
 	}	
-		//echo $store;
 		echo "<input type=\"hidden\" name=\"txtstore\" value=\"$store\">\n";
 		echo "<input type=\"hidden\" name=\"txtquest\" value=\"$cname\">\n"; 
 		echo "<input type=\"hidden\" name=\"txtcharname\" id=\"txtcharname\">\n";
@@ -211,53 +154,48 @@
 		echo "<input type=\"hidden\" name=\"txtcurquest\" value=\"$qname\">\n";
 		echo "<input type=\"hidden\" name=\"txtappstr\" value=\"$appstr\">\n";
 	
-	/*for ($i = 0; $i <= $compteur - 1; $i++)
-	{
-		echo "<br>$s[$i]";
-	} */
-
-	
-	
 ?>
 	</div>
 		<div id="pageright">
-			<div id="header"><h1>WIKWIO</h1></div>
+			<img class="img" src="images/header.jpg" alt="Wikwio" HEIGHT='38%' WIDTH='100%'  />
 			<div id="navbuttons">
 			<?php
 				if ($showflag == 0)
 				{ ?>
 					<a href="#" onClick="shownext()"><?= $menu_text['nextbut'];?></a><br>
 					<a href="#" onClick="showcancel()"><?= $menu_text['cancel'];?></a><br>
-			<?php
+			<?php		
+			
 				}
 				else
 				{
-					echo "<a href=\"index.php\"><img src=\"images/new_ident_btn.jpg\"  alt=\"\"></a><br>";
-					$query = "select * from but_deter";
-					$data = $conn->select($query, 'OBJECT');
 					
-					if ($data <> "")
-					{
-						for ($i = 0; $i < sizeof($data); $i++)
-						{
-  							$imgname = $data[$i]->File;
-  							$key = $data[$i]->Key;
-  							echo "\n<a href=\"#\" onclick=\"showquest('" . $key . "')\">";
-  							echo "<img src=\"images/$imgname\" alt=''>";
-  							echo "</a><br>";
-						}
-					}
-					echo "<a href=\"#\" onclick=\"showsearch()\"><img src=\"images/search.jpg\" alt=\"\"></a><br>";
-					echo "<a href=\"#\" onclick=\"showspecies()\"><img src=\"images/species_list_btn.jpg\" alt=\"\"></a><br>";
-					echo "<a href=\"#\" onclick=\"showresults()\"><img src=\"images/results_btn.jpg\" alt=\"\"></a><br>";
-					echo "<a href=\"#\" onclick=\"showabout()\"><img src=\"images/about_btn.jpg\" alt=\"\"></a><br>";
-					echo "<a href=\"#\" onclick=\"showhelp()\"><img src=\"images/help_btn.jpg\" alt=\"\"></a><br>";
+					include_once('navbutton.php');
+					?>
+					</div>
+
+					<br>
+
+					<?php
+					echo "<p class='result'>" . $_GLOBALS['topcount'] . " ".$menu_text['specie']." ".$menu_text['at']." " . $_GLOBALS['pertop'] . " %</p>";
+					?>	
+					
+					<div class="lang_wrap">
+					<p class="lang_wrap_txt" > <a href="index.php?lang=en" >English</a> | <a href="index.php?lang=fr" >French</a> </p>
+					</div>
+	
+					<?php
+
 				}			
 			?>	
-			</div>	
-			<?php
-				echo "<p class='result'>" . $_GLOBALS['topcount'] . " ".$menu_text['species']." ".$menu_text['at']." " . $_GLOBALS['pertop'] . "%</p>";
-			?>			
+			</div>
+		<?php	
+		if ($showflag == 0)	
+		{
+			calculateper();
+			echo "<p class='result' style='margin: 1.8vw 0vw 2.8vw 0.5vw'>" . $_GLOBALS['topcount'] . " ".$menu_text['species']." ".$menu_text['at']." " . $_GLOBALS['pertop'] . " %</p>";	
+		}
+		?>	
 		</div>
 	</form>
 </div>

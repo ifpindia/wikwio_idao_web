@@ -1,10 +1,14 @@
 <?php
+	session_start();
 	ob_start();
 	header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
 	header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); // Date in the past	
 	include_once("lib.php");	
 	$lang = getLanguage($_GET['lang']);
 	include_once('messages_'.$lang.'.php');
+	$Last = array();
+	$Last[0]="0";
+	$_SESSION["last_txtstore"] = $Last;
 	//print_r($menu_text);
 ?>
 
@@ -16,7 +20,12 @@
 	$title = $ini['website']['site_titre'];
 	$resolution = $ini['website']['site_resolution'];
 	echo "<title>".$title."</title>";
+
 ?> 
+	<!-- 
+	<svg height="60" width="200">
+		<text x="0" y="15" fill="red" transform="translate(220.000000,200.000000)">I love SVG</text>
+	</svg> -->
 	<script src="lib.js" type="text/javascript"></script>
 	<script src="messages/<?= $lang; ?>/tooltips.js" type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="default.css">
@@ -55,17 +64,21 @@
 					} 
 				?>
 		</div>
+
 		
 		<div id="pageright">
+			<img class="img" src="images/header.jpg" alt="Wikwio" HEIGHT='38%' WIDTH='100%'  />
 		
-			<div id="header"><h1>WIKWIO</h1></div>
+			<!--This is a comment. Comments are not displayed in the browser-->
+
+			<!-- <div id="header"><h1>WIKWIO</h1></div> -->
 			<div id="navbuttons">
-				<?php include_once('navbutton.php'); ?>
+				<?php include_once('navbutton.php'); ?> 
 			</div>	
 			<br>
 				<?php include_once('per_show.php'); ?>
 			<div class="lang_wrap">
-					<a href="index.php?lang=en" >English</a> | <a href="index.php?lang=fr" >French</a>
+					<p class="lang_wrap_txt" > <a href="index.php?lang=en" >English</a> | <a href="index.php?lang=fr" >French</a> </p>
 			</div>
 		</div>
 		<input type="hidden" name="txtstore" id="txtstore" value="0">

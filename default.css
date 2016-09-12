@@ -1,17 +1,18 @@
 body, form {
-	margin:0;
-	padding:0;
+
 }
 
 #pageright {
-	float:left;
-	background-color:#E3EBEC;
-	margin:0;
-	padding:0;
-	height:700px;
-	width:14%;
+  float: right;
+  background-color: #E3EBEC;
+  margin-right: 1.4vw;
+  margin-top: 1.4vw;
+  padding: 0;
+  height: 100%;
+  width: 14vw;
+  border: 0.25vw solid #E97900;
+  border-radius: 2vw;
 }
-
 
 h4
 {
@@ -23,26 +24,45 @@ h4
 }
 
 #pageleft {
-	float: left;
-	width: 86%;
+  float: left;
+  margin-top: 0vw;
+  margin-left: 8vw;
+  width: 74%;
+  max-width: 80%;
 }
+
 
 div#header {
-	background:url(images/header.jpg) #E3EBEC no-repeat 0 0;
+	background:url(images/header.jpg) #E3EBEC no-repeat;
+
 	height: 256px;
 	width: 185px;
+	width:110%
+
 }
 
+
+
 #header h1{
-	display:none;
+
+	display:block;
+	position: left;
 }
+
+
+.img {
+	border-top-right-radius: 1.75vw;
+	border-top-left-radius: 1.75vw;
+}
+
+
 
 #navbuttons {
 	display:block;
 }
 
 #navbuttons a img {
-		padding-bottom:2px;
+		padding-bottom:0.1vw;
 		border:0;
 }
 
@@ -51,11 +71,25 @@ div#header {
 }
 
 .result {
-	font-family: verdana, arial;
-	font-weight: bold;
-	font-size: 12px;
-	text-align: center;
-	color:black;
+  font-family: verdana, arial;
+  font-weight: bold;
+  font-size: 1.1vw;
+  text-align: center;
+  color: black;
+  position: relative;
+  right: 0.2vw;
+  top: -0.2vw;
+}
+
+.result_Growth {
+  font-family: verdana, arial;
+  font-weight: bold;
+  font-size: 1.1vw;
+  text-align: center;
+  color: black;
+  position: relative;
+  right: 0.2vw;
+  top: -1.2vw;
 }
 
 tr.rowone 
@@ -119,11 +153,11 @@ br {
 }
 
 p, li, #sidetreecontrol {
-	font-family: verdana, arial;
-	font-size: 12px;
-	line-height: 12px;
-	margin-left: 25px;
-	text-align: justify;
+  font-family: verdana, arial;
+  font-size: 12px;
+  line-height: 0.8vw;
+  margin-left: 0.7vw;
+  text-align: justify;
 }
 
 #tree, #sidetreecontrol
@@ -152,28 +186,75 @@ p, li, #sidetreecontrol {
 }
 */
 
-.warning {
+.warning 
+{
+  text-align: center;
+  color: red;
+  line-height: 3vw;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 90px;
+}
+
+
+#Msg_Quest
+{
+  text-align: center;
+  /* color: red; 
+  line-height: 3vw; */
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 0px;
+}
+
+
+#navbuttons {
+  color: black !important;
+  background-color: white;
+  text-align: center;
+  /* overflow: auto; */
+  /* position: relative; */
+  /* top: 5vw; */
+  max-zoom: 1.5%;
+  /* bottom: 10vw; */
+  height: 100%;
+  border-top: 0.2vw solid #E97900;
+  border-bottom: 0.2vw solid #E97900;
+}
+
+
+#navbuttons a {
+  color: black !important;
+  /* text-decoration: underline; */
+  line-height: 2.2vw;
+  font-weight: bold;
+  font-size: 1.08vw;
+  text-align: center;
+}
+
+#navbuttons a:hover /* Apparence au survol des liens */
+{
+	text-decoration: underline;
+	color: green;
+}
+
+.buttons_right{
 	text-align:center;
-	color: red;
-    font-weight: bold;
-	padding-top: 50px;
 }
 
 
-#navbuttons{
-    color: black !important;
-    background-color: white;
-}
-#navbuttons a{
-	color: black !important;
-    text-decoration: underline;
-    line-height: 30px;
-	font-weight:bold;
+
+.lang_wrap {
+	text-align: center;
+	font-weight: bold;
+	margin-left: 3vw;
+	margin-top: 1.6vw;
 }
 
-
-.lang_wrap{
-	text-align:center;
+.lang_wrap_txt{
+	font-weight: bold;
+	font-size: 0.84vw;
+	color: black;
 }
 
 
@@ -182,34 +263,33 @@ p, li, #sidetreecontrol {
 
 .button {
   border: 0 none;
-  border-radius: 2px 2px 2px 2px;
+  border-radius: 0.4vw 0.4vw 0.4vw 0.4vw;
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
   font-family: Arial,sans-serif;
-  font-size: 12px;
+  font-size: 0.7vw;
   font-weight: bold;
-  line-height: 20px;
-  margin-bottom: 0;
-  margin-top: 10px;
-  padding: 7px 10px;
+  line-height: 1.2vw;
+  margin-bottom: -1vw;
+  margin-top: 1vw;
+  padding: 0.4vw 0.6vw;
   text-transform: none;
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   width: 16.795%;
-  /* auto */
   text-align: center;
-  text-decoration:none;
-  /* DELETE WHEN WIDTH AUTO */
+  text-decoration: none;
 }
+
 .button.red {
   background: none repeat scroll 0 0 #E0645C;
   color: #FFFFFF;
 }
 .button.red:hover {
   background: none repeat scroll 0 0 #999999;
-  color: #FFFFFF;
+  color: #FFFFFF
 }
 .button.dark {
   background: none repeat scroll 0 0 #444444;
@@ -227,14 +307,20 @@ p, li, #sidetreecontrol {
   background: none repeat scroll 0 0 #444444;
   color: #FFFFFF;
 }
+
 .button.green {
   background: none repeat scroll 0 0 #46b98a;
   color: #FFFFFF;
+  position: relative;
+  bottom: 1.5vw;
+}
+
 }
 .button.green:hover, .active_btn {
   background: none repeat scroll 0 0 #444444;
   color: #FFFFFF;
 }
+
 .button.blue {
   background: none repeat scroll 0 0 #2DB6CF;
   color: #FFFFFF;

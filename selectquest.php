@@ -21,18 +21,41 @@
 <form name="frmquest" method="post" action="redrawdefault.php">
 	<div id="pageleft">
 	<?php
+		session_start();
 		include_once("lib.php");
 		getConn();  // get database connection
 		getParameters();		// get parameters like number of species, number of characters and so on
 		$elemflag = 0;
-		
-		$cname = $_POST['txtcharname'];	
-		$store = $_POST["txtstore"];
-		$appstr = $_POST["txtappstr"];
-		
+
+		/*
+		if ( $_POST['txtcharname'] <> "" )
+		{
+			$cname = $_POST['txtcharname'];	
+			$store = $_POST["txtstore"];		// Recup from form
+			$appstr = $_POST["txtappstr"];
+		}
+		else
+		{
+
+		}
+		*/
+
+		if ( isset($_POST["txtcharname"]) )
+		{
+			$_SESSION["txtstore"] = $_POST["txtstore"];
+			$_SESSION["txtcharname"] = $_POST["txtcharname"];
+			$_SESSION["txtappstr"] = $_POST["txtappstr"];
+		}
+
+		$store = $_SESSION["txtstore"];
+		$cname = $_SESSION["txtcharname"];
+		$appstr = $_SESSION["txtappstr"];
+		// echo "store_1 = ".$store;
+
+
 		if (strlen($store) > 1 )
 		{	
-			$store = $_POST["txtstore"];	
+			$store = $_SESSION["txtstore"];	
 			$elemflag = 1;
 		}
 		else
@@ -41,10 +64,10 @@
 			$elemflag = 0;
 			//echo 
 			for ($i=0; $i<$_GLOBALS["no_state"]; $i++)
-				$store .= "0";
+				$store .= "0";			// Creating a store
 		}
 
-		$query = "select * from caracteres";
+		$query = "select ID_CARAC,NUM from caracteres";
 		$data = $conn->select($query, 'OBJECT');
 		//	echo "size: " . sizeof($data);
 			
@@ -57,10 +80,11 @@
 		}	
 		
 		//echo $query;
-		$query = "select * from objets_fic where Objet='$cname'";		
+		$query = "select * from objets_fic where Objet='$cname'";		// On récupère les réponses possibles à Port, Phyllo, ... 	
 		$data = $conn->select($query, 'OBJECT');
 		if (sizeof($data) == 1)
 		{
+			
 			if ($data->Contrainte == NULL)
 			{
 				$questname = "quest/" . $data->Popup;
@@ -115,9 +139,32 @@
 		}
 		
 		$agent = $_SERVER['HTTP_USER_AGENT'];
+		?>
+
+		<script> 
+		var Quest = '<?php echo $cname; ?>';
+		// document.write(" / "+Quest);
+		// document.write(tooltips["Fl_Color"]);
+		// document.write(Quest);
+		// document.write(tooltips[Quest]+" ? "); 
+		</script>
+
+		<?php
+		//echo "numero2 = ".$qname;
+		$Msg_Quest = '<script> document.write(tooltips[Quest]); </script>';
+		// echo " / "."Msg_Quest = ".$Msg_Quest;
+		// echo $Msg_Quest;
+
+		?>
+		<div id="Msg_Quest" style=" font-size: 1.3vw; text-align: center; font-weight: bold; width: 32%; padding-top: 0.8vw; padding-bottom: 0.8vw; position: relative; top: 0.8vw; left: 31%; border: 0.25vw solid #E97900; border-radius: 2vw; " >
+			<?php echo $Msg_Quest; ?>
+		</div>
+
+		<?php
+
 		if (eregi("MSIE", $agent)) 
 		{
-			$str = '<embed id="svgquest" name="svgquest" type="image/svg+xml" src="' . $questname . '" width="100%" height="100%"/>';	
+			$str = '<embed id="svgquest" name="svgquest" type="image/svg+xml" src="' . $questname . '" width="84%" height="100%" style="margin-left: 4vw; margin-top:1vw" />';	
 			echo "<script type=\"text/javascript\" src=\"writethis.js\"></script>\n";
 			$jval .= "<script type=\"text/javascript\">\n";
 			$jval .= " var strtowrite= '$str';\n";
@@ -128,10 +175,10 @@
 		}
 		else
 		{
-			echo('<object id="svgquest" name="svgquest" type="image/svg+xml" data="' . $questname . '" width="100%" height="100%"><param name="src" value="' . $questname. '"></object>');
+			echo('<object id="svgquest" name="svgquest" type="image/svg+xml" data="' . $questname . '" width="84%" height="100%" style="margin-left: 4vw; margin-top:1vw" ><param name="src" value="' . $questname. '"></object>');
 		} 
 		
-		//echo $store;
+		// echo "store_2 = ".$store;
 		echo "<input type=\"hidden\" name=\"txtstore\" value=\"$store\">\n";
 		echo "<input type=\"hidden\" name=\"txtquest\" value=\"$cname\">\n"; 
 		echo "<input type=\"hidden\" name=\"txtcharname\" id=\"txtcharname\">\n";
@@ -141,17 +188,25 @@
 	</div>
 
 		<div id="pageright">
-			<div id="header"><h1>WIKWIO</h1></div>
+
+			<img class="img" src="images/header.jpg" alt="Wikwio" HEIGHT='38%' WIDTH='100%'  />
+			<!-- <div id="header"><h1>WIKWIO</h1></div> -->
+
 			<div id="navbuttons">			
 				<?php include_once('navbutton.php'); ?>
-			</div>	<br><br>	
-			<div style="text-align:center;">
-				<a href="javascript:history.go(-1);" class="button center green" style="width: 40px;"><?= $menu_text['cancel'];?></a>
-			</div>
-			<?php
+			</div>	<br>	
+			<?php	
+				getConn();			
+				getParameters();		
+				apparrayinit();
 				calculateper();
-				echo "<p class='result'>" . $_GLOBALS['topcount'] . " espèces à " . $_GLOBALS['pertop'] . "%</p>";
+				echo "<p class='result'>" . $_GLOBALS['topcount'] .  " ".$menu_text['species']." ".$menu_text['at']." ".$_GLOBALS['pertop']." %</p>";
+				ob_end_flush();
 			?>
+			<br>
+			<div style="text-align:center;">
+				<a href="javascript:void(0);" onClick="showcancel()" class="button center green" style="width: 2.8vw;"><?= $menu_text['cancel'];?></a>
+			</div>
 		</div>
 	</form>
 
@@ -164,7 +219,7 @@
 		
 		if ($charfound == 1)
 		{
-			$query = "select * from caracteres where NUM=$charpos";		
+			$query = "select ID_CARAC from caracteres where NUM=$charpos";		
 			$data = $conn->select($query, 'OBJECT');
 			if (sizeof($data) == 1)
 			{

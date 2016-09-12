@@ -1,15 +1,30 @@
 <?php
 	ob_start();
+	session_start();
 	include_once("lib.php");	
 	$lang = getLanguage($_GET['lang']);
 	include_once('messages_'.$lang.'.php');
 	getConn();
-	$spcode = $_POST["txtspcode"];
-	$store = $_POST["txtstore"];
 	
+
+	if ( isset($_POST["txtstore"]) )
+	{
+		// echo "isset";
+		$_SESSION["txtspcode"] = $_POST["txtspcode"];
+		$_SESSION["txtstore"] = $_POST["txtstore"];
+		$_SESSION["txtappstr"] = $_POST["txtappstr"];
+	}
+
+
+	$spcode = $_SESSION["txtspcode"];
+	$store = $_SESSION["txtstore"];
+	$appstr = $_SESSION["txtappstr"];
+	// echo "store_3 = ".$store;
+
+
 	// The following code segment returns an array with caracter name as index key and number as value
 	
-	$query = "select * from caracteres";
+	$query = "select ID_CARAC,NUM from caracteres";
 	$data = $conn->select($query, 'OBJECT');
 	//	echo "size: " . sizeof($data);
 		
@@ -157,7 +172,8 @@
 			</div>
 			
 			<div id="pageright">
-				<div id="header"><h1>WIKWIO</h1></div>
+				<img class="img" src="images/header.jpg" alt="Wikwio" HEIGHT='38%' WIDTH='100%'  />
+				<!-- <div id="header"><h1>WIKWIO</h1></div> -->
 				<div id="navbuttons">
 					<?php include_once('navbutton.php'); ?>
 				</div>	
@@ -165,7 +181,7 @@
 					echo "<input type=\"hidden\" name=\"txtstore\" value=\"$store\" >";
 					echo "<input type=\"hidden\" name=\"txtcharname\" >";
 					calculateper();
-					echo "<p class='result'>" . $_GLOBALS['topcount'] . " ".$menu_text['species']." ".$menu_text['at']." " . $_GLOBALS['pertop'] . "%</p>";
+					echo "<p class='result' style='margin: 1.8vw 0vw 2.8vw 0.5vw' >" . $_GLOBALS['topcount'] . " ".$menu_text['species']." ".$menu_text['at']." " . $_GLOBALS['pertop'] . "%</p>";
 				?>			
 			</div>
 		</form>

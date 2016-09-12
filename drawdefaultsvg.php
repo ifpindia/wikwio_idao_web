@@ -16,6 +16,7 @@
 		//print $path;
 		print file_get_contents($path);
 	}
+	print file_get_contents("images/Back_Grey.svg");
 	writesvgfooter();
 	ob_end_flush();
 ?>

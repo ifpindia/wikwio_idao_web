@@ -136,7 +136,8 @@
 			</div>
 			
 			<div id="pageright">
-				<div id="header"><h1>WIKWIO</h1></div>
+				<!-- <div id="header"><h1>WIKWIO</h1></div> -->
+				<img class="img" src="images/header.jpg" alt="Wikwio" HEIGHT='38%' WIDTH='100%'  />
 				<div id="navbuttons">
 					<?php include_once('navbutton.php'); ?>
 				</div>	

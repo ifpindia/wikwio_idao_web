@@ -7,6 +7,13 @@ function changelevel()
 	document.forms[0].submit();
 }
 
+function showreturn()
+{
+	document.forms[0].action="redrawdefault.php";
+	document.forms[0].txtcarname.value = "cancel";
+	document.forms[0].submit();
+}
+
 function showhelp()
 {
 	document.forms[0].action = "help.php";
@@ -69,6 +76,12 @@ function showerrors(spcode)
 	//alert (spcode);
 	document.forms[0].txtspcode.value = spcode;
 	document.forms[0].action = "contra.php";
+	document.forms[0].submit();
+}
+
+function go_menu()
+{
+	document.forms[0].action = "index.php";	
 	document.forms[0].submit();
 }
 

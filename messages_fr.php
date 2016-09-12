@@ -16,7 +16,10 @@ $menu_text = array(
 		"resulterr"=>"Erreurs",
 		"resultview"=>"vue",
 		"species"=>"Espèces",
-		"at"  => "à",
+		"specie"=>"Espèce",
+		"OneSpicieLeft"=>"Une seule plante correspond à vos critères de recherche. Consultez l'onglet 'Résultats' pour découvrir laquelle.",
+		"NoQuestLeft"=>"Plus de question disponible",
+		"at"=>"à",
 		"contrabutname"=>"Portrait robot",
 		"graphview"=>"Rechercher le portrait robot des espèces"
 );
